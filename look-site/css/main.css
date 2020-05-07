@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Russo+One&display=swap');
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+        color: black;
+/*        background: #ffecd2;*/
+        background-image: linear-gradient(to bottom,#ffecd2,#ffe5c8 );
+        background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+        background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+        background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+        background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+        
+        box-sizing: border-box;
+        width: 100%;
+        overflow: hidden;
+}
+.row{
+    padding: 0px!important;
+    margin: 0px;
+}
+a{
+    color: black;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+    
+}
+
+header{
+    display: inline-flex;
+    justify-content: space-between;
+}
+hearder nav .logo{
+    width: 200px;
+  
+}
+.logo img{
+    width: 150px;
+    margin-left: 0px;
+}
+.bg-light{
+    background: transparent!important;
+}
+.nav{
+    margin-right: 50px;
+}
+
+.side-bar {
+    height: 100vh;
+   
+}
+
+.side-bar ul{
+     position: absolute;
+     height: 100vh;
+     top: 20%;
+    left:-10px;
+}
+
+.side-bar ul li {
+   list-style: none;
+    margin: 20px;
+    text-transform: uppercase;
+    font-family: 'Russo One', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+/*      transition: 5s;*/
+}
+.side-bar ul li:hover{
+    list-style: outside;
+    transition: 0.5s;
+}
+
+.specs {
+    background: white;
+    height: 70px;
+    margin-top: 25px;
+    width: 100%;
+    
+}
+
+.image {
+    margin-top: -55px;
+    margin-left: 35px;
+    position: relative;
+}
+
+.name {
+    display: flex;
+  height: 70px;
+    
+}
+
+.details {
+  
+    display: flex;
+    justify-content: space-between;
+    border-left: 1px solid grey;
+    height: 70px;
+}
+
+.cart {
+    background: black;
+    height: 70px;
+    
+}
+
+.title {
+    margin: 22px;
+    letter-spacing: 1.5px;
+}
+
+.price {
+    margin: 20px;
+    letter-spacing: 1.5px;
+    margin: auto;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+.colors {
+    display: flex;
+    margin: 10px 0px 20px 0px;
+}
+
+.circles {
+    list-style: none;
+    margin: 15px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid inherit;
+    border-radius: 80px;
+    
+}
+
+.brown {
+    background: brown;
+}
+
+.black {
+     background: black;
+}
+
+.silver {
+    background: silver;
+    position: relative;
+}
+.silver::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: cyan;
+    
+}
+
+.deep-blue {
+    background: blue;
+}
+
+
+.dropdown {
+    margin-top: 20px;
+}
+
+.text {
+    margin-top: 22px;
+    text-transform: uppercase;
+    font-family: 'Russo One', sans-serif;
+    font-size: 0.86em;
+    letter-spacing: 2px;
+    font-weight: 100;
+    color: white;
+}
+
+.arrows {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top:45%;
+    right: -60px;
+}
+.arrows span{
+    margin-bottom: 20px;
+}
